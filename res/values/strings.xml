@@ -2,4 +2,5 @@
 <resources>
     <string name="hello">Hello World, Factorial!</string>
     <string name="app_name">Factorial</string>
+<string name="short_notification_text">Factorial</string>
 </resources>

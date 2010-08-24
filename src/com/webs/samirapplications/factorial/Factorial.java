@@ -7,7 +7,8 @@ import android.widget.TextView;
 import android.widget.Button;
 import android.widget.Toast;
 import android.view.View;
-import java.lang.Double;
+
+
 
 
 
@@ -21,7 +22,7 @@ public class Factorial extends Activity {
 	private int ans;
 	private TextView txtanswer;
 	private Button button;
-	private EditText text;
+
 	
     @Override
     public void onCreate(Bundle savedInstanceState) 
@@ -40,6 +41,7 @@ public class Factorial extends Activity {
       	{ 
       		public void onClick (View v)
       		{ calculate();} 
+      		{Toast.makeText(Factorial.this, R.string.short_notification_text, Toast.LENGTH_SHORT).show();}
        	});
     }
 
