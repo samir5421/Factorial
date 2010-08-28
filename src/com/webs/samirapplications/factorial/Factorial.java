@@ -10,10 +10,6 @@ import android.view.View;
 
 
 
-
-
-
-
 public class Factorial extends Activity {
     /** Called when the activity is first created. */
 	
