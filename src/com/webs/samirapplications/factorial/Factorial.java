@@ -1,5 +1,6 @@
 package com.webs.samirapplications.factorial;
 
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.EditText;
@@ -43,6 +44,7 @@ public class Factorial extends Activity {
 
 	private void calculate() 
 	{
+		try{
 		num=Integer.parseInt(in.getText().toString());
 			
 		for (int i = num - 1; i > 0; i--)
@@ -52,6 +54,13 @@ public class Factorial extends Activity {
 		}
 				
 		txtanswer.setText(Integer.toString(ans));
+		}
+		catch(NumberFormatException e){
+			error();
+		}
+	}
+	public void error(){
+		{Toast.makeText(Factorial.this, R.string.error, Toast.LENGTH_LONG).show();}	
 	}
 		
 }

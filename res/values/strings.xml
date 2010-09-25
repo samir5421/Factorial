@@ -3,4 +3,5 @@
     <string name="hello">Hello World, Factorial!</string>
     <string name="app_name">Factorial</string>
 <string name="short_notification_text">Factorial</string>
+<string name="error">An error has occurred. Please enter a valid number.</string>
 </resources>
