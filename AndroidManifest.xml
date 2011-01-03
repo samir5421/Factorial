@@ -5,11 +5,8 @@
     <application android:icon="@drawable/icon" android:label="@string/app_name">
         <activity android:name=".Factorial"
                   android:label="@string/app_name">
-            <intent-filter>
-
-            </intent-filter>
         </activity>
-<activity android:label="@string/app_name" android:name=".LicenseCheck"
+	<activity android:label="@string/app_name" android:name=".LicenseCheck"
 			android:theme="@android:style/Theme.Translucent.NoTitleBar">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
